@@ -1,0 +1,32 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro %}
+<!-- Styles block -->
+{% block styles%}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='Css/style.css')}}" />
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+
+      <h2>Technology</h2>
+      <div id="technology">
+        {{ macro.showPitch(technology)}}
+      </div>
+
+      <h2>Business</h2>
+      <div id="business">
+        {{ macro.showPitch(business) }}
+      </div>
+
+		  <h2>Sports</h2>
+      <div id="sports">
+        {{ macro.showPitch(sports) }}
+      </div>
+
+    </div>
+  </div>
+</div>
