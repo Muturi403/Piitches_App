@@ -24,7 +24,7 @@ h2 {
 }
 
 .upvote {
-	background-color: green;
+	background-color: brown;
 	padding: 0.5rem;
 	color: white;
 	cursor: pointer;
@@ -33,7 +33,7 @@ h2 {
 
 .dropdown a,
 .user {
-	color: #ff7d00 !important;
+	color: purple !important;
 }
 
 .dropdown a:hover,
@@ -48,11 +48,6 @@ h2 {
 hr {
 	background-color: #78290f !important;
 	height: 3px;
-}
-
-footer {
-	color: white !important;
-	margin-top: 3rem !important;
 }
 
 .actions {
@@ -71,7 +66,7 @@ h3 {
 }
 
 .downvote {
-	background-color: #8f7430;
+	background-color: red;
 	padding: 0.5rem;
 	color: white;
 	cursor: pointer;
@@ -86,12 +81,12 @@ span a {
 }
 
 #sign {
-	color: #ff7d00 !important;
+	color: purple !important;
 }
 
 #create-acc {
-	background-color: green;
-	color: #ff7d00;
+	background-color: brown;
+	color: purple;
 }
 
 @media (max-width: 1000px) {
