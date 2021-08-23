@@ -4,7 +4,7 @@ from flask_mail import Mail
 from flask_login import LoginManager, login_manager
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
-from flask_uploads import IMAGES, UploadSet,configure_uploads
+from flask_uploads import  UploadSet,configure_uploads
 
 db = SQLAlchemy()
 mail = Mail()
